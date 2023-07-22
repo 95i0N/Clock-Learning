@@ -8,7 +8,7 @@ const Lecture = () => {
         <div className='lecture'>
             <NavBar />
             <VideoPlayer 
-            url='https://www.youtube.com/watch?v=SE19_kLsq0s' 
+                url='https://www.youtube.com/watch?v=SE19_kLsq0s' 
             />
         </div>
 

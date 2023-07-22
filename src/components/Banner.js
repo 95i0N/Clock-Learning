@@ -1,4 +1,5 @@
 import React from 'react'
+import '../custom/Banner.css'
 import {useEffect, useState} from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
@@ -52,7 +53,9 @@ const Banner = () => {
                     <h3><span className='tagline'>ようこそ</span></h3>
                     <p>「とけい」をしらないキミのために</p>
                     <h1><span className='wrap'>{text}</span></h1>
-                    <button onClick={()=>console.log('connect')}>さあ、はじめよう！<ArrowRightCircle size={25} /></button>
+                    <Link to='/lecture' style={{ textDecoration: 'none' }}>
+                        <button>さあ、はじめよう！<ArrowRightCircle size={25} /></button>
+                    </Link>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={HeaderImg} alt='Header image' />

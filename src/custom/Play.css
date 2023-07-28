@@ -1,0 +1,95 @@
+/* Add styles for the main container */
+.exercise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Add styles for the NavBar */
+  /* Assuming you have the NavBar component properly set up */
+  /* If you need custom styles, you can add them here */
+  /* For example, you can set the background color, font size, etc. */
+  
+  /* Add styles for the quiz section */
+  .quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add styles for the real-time section */
+  .real-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the question and time display in the quiz section */
+  .quiz h1 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  /* Styles for the Clock component in the quiz and real-time sections */
+  /* Assuming the Clock component is properly set up and styled */
+  /* If you need custom styles, you can add them here */
+  /* For example, you can set the font size, color, etc. */
+  
+  /* Styles for the buttons in the quiz section */
+  .quiz button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the message in the quiz section */
+  .quiz p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  /* Styles for the button to move to the next question or back to real-time section */
+  .quiz button:last-child {
+    background-color: #f44336;
+  }
+  
+  /* Styles for the button in the real-time section */
+  .real-time button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+/* Add styles for the button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add styles for the buttons in the button container */
+  .button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+    

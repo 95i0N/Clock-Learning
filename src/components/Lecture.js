@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import NavBar from './NavBar'
 import VideoPlayer from './VideoPlayer';
+import '..//custom/Lecture.css';
 
 const Lecture = () => {
     
@@ -11,7 +12,6 @@ const Lecture = () => {
                 url='https://www.youtube.com/watch?v=SE19_kLsq0s' 
             />
         </div>
-
         
     );
 }

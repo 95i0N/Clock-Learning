@@ -41,7 +41,7 @@ const NavBar = () => {
             <Nav.Link href="/lecture" className={activeLink==='lecture'?'active navbar-link':'navbar-link'} onClick={()=>{onUpdateActiveLink('lecture')}}>とけいってなに？</Nav.Link>
             <Nav.Link href="/quiz" className={activeLink==='quiz'?'active navbar-link':'navbar-link'} onClick={()=>{onUpdateActiveLink('quiz')}}>とけい,
             よめる？</Nav.Link>
-            <Nav.Link href="/exercise" className={activeLink==='exercise'?'active navbar-link':'navbar-link'} onClick={()=>{onUpdateActiveLink('exercise')}}>とけいであそぼ！</Nav.Link>
+            <Nav.Link href="/play" className={activeLink==='play'?'active navbar-link':'navbar-link'} onClick={()=>{onUpdateActiveLink('play')}}>とけいであそぼ！</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

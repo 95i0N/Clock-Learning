@@ -16,3 +16,6 @@
   left: 15%;
   overflow: hidden;
 }
+.react-player-thumbnail {
+  display: none !important;
+}

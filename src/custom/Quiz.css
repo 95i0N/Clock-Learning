@@ -42,8 +42,19 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .answer-section button{
+    color: #80e22ba7;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
   
   /* Add styles for the answer buttons */
+  
   /* Assuming the Chakra UI Button component is properly set up and styled */
   /* If you need custom styles, you can add them here */
   /* For example, you can set the width, font size, background color, etc. */

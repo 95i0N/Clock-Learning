@@ -113,6 +113,9 @@ const Quiz = () => {
     const handleAnswerOptionClick = (isCorrect) =>{
         if(isCorrect){
             setScore(score+1);
+            <h2>せいかい！</h2>
+        }else{
+            <h2>ざんねん！</h2>
         }
 
         const nextQuestion = currentQuestion + 1;

@@ -1,5 +1,6 @@
 /* Add styles for the main container */
-.exercise {
+.play {
+  margin-top: 7%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +61,7 @@
   
   /* Styles for the button to move to the next question or back to real-time section */
   .quiz button:last-child {
-    background-color: #f44336;
+    background-color: #4CAF50;
   }
   
   /* Styles for the button in the real-time section */

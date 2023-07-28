@@ -78,7 +78,7 @@ const Play = () => {
    }
 
  return (
-   <div className='exercise'>
+   <div className='play'>
        <NavBar />
        {quizMode?
        <div className='quiz'>

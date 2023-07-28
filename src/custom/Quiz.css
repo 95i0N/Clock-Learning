@@ -1,11 +1,18 @@
 /* Add styles for the main container */
 .question {
+    margin-top: 60;
+    padding: 160px 0 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
     font-family: Arial, sans-serif;
+    background-image: url('../assets/lecture-bg.jpg');
+    opacity: 0.5;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1.0;
   }
   
   /* Add styles for the NavBar */
@@ -44,13 +51,14 @@
   }
 
   .answer-section button{
-    color: #80e22ba7;
+    color: #1887e2;
     font-weight: 700;
     font-size: 30px;
     margin-top: 10px;
     letter-spacing: 0.8px;
     display: flex;
     align-items: center;
+    outline: invert;
   }
   
   /* Add styles for the answer buttons */
